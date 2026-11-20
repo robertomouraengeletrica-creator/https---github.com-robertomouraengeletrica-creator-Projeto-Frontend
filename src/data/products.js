@@ -1,0 +1,11 @@
+export const products = [
+  { id: 1, image: '/images/air-max.jpg', name: 'Tênis Nike Air Max', brand: 'Nike', category: 'Tênis', price: 599.9, oldPrice: 749.9, color: '#c92071', colors: ['#c92071', '#1f1f1f', '#b5b6f2'], sizes: [38, 39, 40, 41, 42], description: 'Amortecimento Air visível e visual clássico para o dia a dia.' },
+  { id: 2, image: '/images/ultraboost.jpg', name: 'Tênis Adidas Ultraboost', brand: 'Adidas', category: 'Tênis', price: 799.9, color: '#1f1f1f', colors: ['#1f1f1f', '#ffffff'], sizes: [39, 40, 41, 42, 43], description: 'Retorno de energia em cada passada, ideal para corrida.' },
+  { id: 3, image: '/images/puma-camiseta.jpg', name: 'Camiseta Puma Essentials', brand: 'Puma', category: 'Camisetas', price: 89.9, oldPrice: 119.9, color: '#b5b6f2', colors: ['#b5b6f2', '#1f1f1f'], sizes: ['P', 'M', 'G', 'GG'], description: 'Algodão macio com corte reto e logo discreto.' },
+  { id: 4, image: '/images/jogger-reebok.jpg', name: 'Calça Jogger Reebok', brand: 'Reebok', category: 'Calças', price: 229.9, color: '#474747', colors: ['#474747', '#1f1f1f'], sizes: ['P', 'M', 'G'], description: 'Moletom leve com elástico no tornozelo.' },
+  { id: 5, image: '/images/bone-new-era.jpg', name: 'Boné New Era 9FORTY', brand: 'New Era', category: 'Bonés', price: 149.9, color: '#c92071', colors: ['#c92071', '#1f1f1f'], sizes: ['Único'], description: 'Aba curva e ajuste regulável.' },
+  { id: 6, image: '/images/jbl-tune.jpg', name: 'Fone JBL Tune 510BT', brand: 'JBL', category: 'Fones', price: 249.9, oldPrice: 299.9, color: '#1f1f1f', colors: ['#1f1f1f', '#b5b6f2'], sizes: ['Único'], description: 'Bluetooth com até 40 horas de bateria.' },
+  { id: 7, image: '/images/nike-revolution.jpg', name: 'Tênis Nike Revolution', brand: 'Nike', category: 'Tênis', price: 349.9, color: '#b5b6f2', colors: ['#b5b6f2', '#c92071'], sizes: [37, 38, 39, 40], description: 'Leve e flexível para treinos curtos.' },
+  { id: 8, image: '/images/adidas-trefoil.jpg', name: 'Camiseta Adidas Trefoil', brand: 'Adidas', category: 'Camisetas', price: 129.9, color: '#c92071', colors: ['#c92071', '#ffffff'], sizes: ['M', 'G', 'GG'], description: 'Estampa trefoil clássica em malha de algodão.' },
+]
+export const brl = (v) => v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
